@@ -1,0 +1,169 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 25px;
+    padding-left: 2%;
+    color: rgb(117, 79, 28);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+    
+}
+
+.nav-links li {
+    padding: 0.5rem 1rem;
+    /* color: black; */
+
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(117, 79, 28);
+
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#start-btn {
+    padding: 1rem 2rem;
+    font-size: 28px;
+     /* background-color: burlywood;  */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* #start-btn:hover { */
+    /* background-color: lightcoral; */
+/* } */
+
+.quiz {
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(117, 79, 28);
+}
+
+p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.question {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 2rem; /* Space between questions */
+    font-size: 2rem;
+    color: rgb(117, 79, 28);
+}
+
+#question-text {
+    margin-bottom: 1rem; /* Space between question and options */
+}
+
+.option-container {
+    margin-top: 1rem;
+    text-align: left; /* Align text to the left */
+}
+
+.option {
+    display: block; /* Each option on its own line */
+    margin-bottom: 10px;
+    font-size: 2rem; 
+    color: black;/* Space between options */
+}
+#next-button
+{
+
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size:25px ;
+    border-radius: 5px;
+    /* background-color: burlywood; */
+    cursor: pointer;
+    border: none;
+    color: black;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#quiz-id {
+    text-align: center;
+    margin-top: 2rem;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.product-list img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.results
+{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(117, 79, 28);
+}
+#recommend-btn
+{
+    /* margin-top: 15%; */
+    /* margin-left: 13%; */
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: burlywood;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+}
+/* .quizDivv{ */
+    /* color: rgb(117, 79, 28); */
+/* } */
